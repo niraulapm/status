@@ -1,0 +1,1592 @@
+[
+    {
+	"name"      : "Torvis",
+	"tracker"  : ["Torvis"],
+	"isSharedVar"  : true,
+	"type"      : "source",
+	"variables" : [
+	    {
+		"parameter" : "Filament Current",
+		"key"       : "Torvis:Filament CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1000.0
+	    },
+	    {
+		"parameter" : "Arc Voltage",
+		"key"       : "Torvis:Arc VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Arc Current",
+		"key"       : "Torvis:Arc CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Extractor Voltage",
+		"key"       : "Torvis:Extractor VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 0.5
+	    },
+	    {
+		"parameter" : "Focus Voltage",
+		"key"       : "Torvis:Focus VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1.5
+	    },
+	    {
+		"parameter" : "Gap Voltage",
+		"key"       : "Torvis:Gap VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1.5
+	    },
+	    {
+		"parameter" : "Injector Voltage",
+		"key"       : "Torvis:Injector VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure (At Source)",
+		"key"       : "Torvis:Gas Pressure",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    }
+	]
+    },
+    {
+	"name"      : "SNICS II",
+	"tracker"  : ["SNICS II"],
+	"isSharedVar"  : true,
+	"type"      : "source",
+	"variables" : [
+	    {
+		"parameter" : "Oven Heater Voltage",
+		"key"       : "SNICS II:Oven Heater VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Oven Heater Current",
+		"key"       : "SNICS II:Oven Heater CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Line Heater Current",
+		"key"       : "SNICS II:Line Heater CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Line Heater Voltage",
+		"key"       : "SNICS II:Line Heater VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Ionizer Current",
+		"key"       : "SNICS II:Ionizer CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Ionizer Voltage",
+		"key"       : "SNICS II:Ionizer VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Cathode Voltage",
+		"key"       : "SNICS II:Cathode VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Cathode Current",
+		"key"       : "SNICS II:Cathode CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Extractor Voltage",
+		"key"       : "SNICS II:Extractor VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Extractor Current",
+		"key"       : "SNICS II:Extractor CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Focus Voltage",
+		"key"       : "SNICS II:Focus VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Focus Current",
+		"key"       : "SNICS II:Focus CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Bias Voltage",
+		"key"       : "SNICS II:Bias VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Bias Current",
+		"key"       : "SNICS II:Bias CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Temperature",
+		"key"       : "SNICS II:Temperature",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure (At Source)",
+		"key"       : "SNICS II:IG 30-4 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    }
+	]
+    },
+    {
+	"name"      : "PS120",
+	"tracker"  : ["PS120"],
+	"isSharedVar"  : true,
+	"type"      : "source",
+	"variables" : [
+	    {
+		"parameter" : "Pressure (At Source)",
+		"key"       : "PS120:IG 1-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+            {
+		"parameter" : "LE FC Current",
+		"key"       : "PS120:LE Current",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1e6
+	    }
+	]
+    },
+    {
+	"name"      : "ECR",
+	"tracker"  : ["ECR"],
+	"isSharedVar"  : true,
+	"type"      : "source",
+	"variables" : [
+	  {
+		"parameter" : "Pressure (In Source Leg)",
+		"key"       : "ECR:IG 17-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1
+	  },
+	  {
+		"parameter" : "Na Oven Voltage",
+		"key"	    : "ECR:Na Oven Voltage",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1
+	  },
+	  {
+		"parameter" : "Na Oven Current",
+		"key"	    : "ECR:Na Oven Current",
+		"value"     : 0.0,
+		"unit"	    : "A",
+		"scale"     : 1
+	  },
+	  {
+		"parameter" : "Na Oven Temp",
+		"key"       : "ECR:Na Oven Temp",
+		"Value"     : 0.0,
+		"unit"	    : "C",
+		"scale"     : 1
+	  }
+	]
+    },
+    {
+	"name"      : "SNICS",
+	"tracker"  : ["SNICS"],
+	"isSharedVar"  : true,
+	"type"      : "source",
+	"variables" : [
+            {
+		"parameter" : "Cathode Voltage",
+		"key"       : "SNICS:Cathode VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1
+	    },
+            {
+		"parameter" : "Cathode Current",
+		"key"       : "SNICS:Cathode CR",
+		"value"     : 0.0,
+		"unit"      : "mA",
+		"scale"     : 0.75
+	    },
+            {
+		"parameter" : "Ionizer Current",
+		"key"       : "SNICS:Ionizer CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1
+	    },
+            {
+		"parameter" : "Oven Current",
+		"key"       : "SNICS:Oven CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1
+	    },
+	    {
+		"parameter" : "Oven Temperature",
+		"key"       : "SNICS:Oven Temp",
+		"value"     : 0.0,
+		"unit"      : "degC",
+		"scale"     : 1
+	    },
+	    {
+		"parameter" : "Immersion Lens Voltage",
+		"key"       : "SNICS:IL VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1
+	    },
+            {
+		"parameter" : "Immersion Lens Current",
+		"key"       : "SNICS:IL CR",
+		"value"     : 0.0,
+		"unit"      : "mA",
+		"scale"     : 0.75
+	    },
+	    {
+		"parameter" : "Extractor Voltage",
+		"key"       : "SNICS:Extractor VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 3
+	    },
+            {
+		"parameter" : "Extractor Current",
+		"key"       : "SNICS:Extractor CR",
+		"value"     : 0.0,
+		"unit"      : "mA",
+		"scale"     : 1.2
+	    },
+            {
+		"parameter" : "Bias Voltage",
+		"key"       : "SNICS:Bias VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 6
+	    },
+            {
+		"parameter" : "Bias Current",
+		"key"       : "SNICS:Bias CR",
+		"value"     : 0.0,
+		"unit"      : "mA",
+		"scale"     : 0.15
+	    },
+  	    {
+		"parameter" : "Pressure (In Source Leg)",
+		"key"       : "ECR:IG 17-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1
+	    },
+	    {
+		"parameter" : "LE FC Current",
+		"key"	    : "SNICS:LE Current",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1e6
+	    }
+	]
+    },
+    {
+	"name"      : "Wolverine",
+	"tracker"  : ["Wolverine"],
+	"isSharedVar"  : true,
+	"type"      : "accelerator",
+	"variables" : [
+	    {
+		"parameter" : "Terminal Voltage",
+		"key"       : "Wolverine:TPS TK-1 GvmVR",
+		"value"     : 0.0,
+		"unit"      : "MV",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Grid Voltage",
+		"key"       : "Wolverine:TPS TK-1 GridVR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Corona Current",
+		"key"       : "Wolverine:TPS TK-1 PrbCR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Chain 1 Current",
+		"key"       : "Wolverine:CH TX-1 CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Chain 2 Current",
+		"key"       : "Wolverine:CH TX-2 CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Column 1 Current",
+		"key"       : "Wolverine:COL TN-1 CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Column 2 Current",
+		"key"       : "Wolverine:COL TX-1 CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Lost Current",
+		"key"       : "Wolverine:CH TX-n CRlost",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Low Energy Pressure",
+		"key"       : "Wolverine:IG LE PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "High Energy Pressure",
+		"key"       : "Wolverine:IG HE PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "High Energy FC",
+		"key"       : "Wolverine:HE Current",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1e6
+	    },
+            {
+                "parameter" : "High Energy Magnet",
+                "key"       : "Wolverine:He Magnet",
+                "value"     : 0.0,
+                "unit"      : "Amps",
+                "scale"     : 1
+            }
+
+	]
+    },
+    {
+	"name"      : "Blue",
+	"tracker"  : ["Blue"],
+	"isSharedVar"  : true,
+	"type"      : "accelerator",
+	"variables" : [
+	    {
+		"parameter" : "Bias Voltage",
+		"key"       : "Blue:BIA 01-1 VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Arc Current",
+		"key"       : "Blue:ARC S1-1 CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Arc Voltage",
+		"key"       : "Blue:ARC S1-1 VR",
+		"value"     : 0.0,
+		"unit"      : "Volts",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Extractor Current",
+		"key"       : "Blue:EXT S1-1 CR",
+		"value"     : 0.0,
+		"unit"      : "mA",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Extractor Voltage",
+		"key"       : "Blue:EXT S1-1 VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Filament Current",
+		"key"       : "Blue:FIL S1-1 CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Filament Voltage",
+		"key"       : "Blue:FIL S1-1 VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Sputter Current",
+		"key"       : "Blue:SPR S1-1 CR",
+		"value"     : 0.0,
+		"unit"      : "A",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Sputter Voltage",
+		"key"       : "Blue:SPR S1-1 VR",
+		"value"     : 0.0,
+		"unit"      : "V",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Suppressor Voltage",
+		"key"       : "Blue:SUP S1-1 VR",
+		"value"     : 0.0,
+		"unit"      : "kV",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 1 (Source)",
+		"key"       : "Blue:IGC 01-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"       : "Blue:IGC 03-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (Chamber)",
+		"key"       : "Blue:IGC 03-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Chamber Current",
+		"key"       : "Blue:Chamber Current",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1e6
+	    },
+	    {
+		"parameter" : "Implant Chamber Current",
+		"key"       : "Blue:Implant Chamber Current",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1e6
+	    },
+	    {
+		"parameter" : "Implant Chamber TC 0",
+		"key"	    : "Blue:Implant Chamber TC 0",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Implant Chamber TC 1",
+		"key"       : "Blue:Implant Chamber TC 1",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Implant Chamber TC 2",
+		"key"       : "Blue:Implant Chamber TC 2",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Implant Chamber TC 3",
+		"key"       : "Blue:Implant Chamber TC 3",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    }
+
+	]
+    },
+    {
+	"name"      : "Maize",
+	"tracker"  : ["Maize"],
+	"isSharedVar"  : true,
+	"type"      : "accelerator",
+	"variables" : []
+    },
+    {
+	"name"      : "Beamline 1",
+	"tracker"  : ["Beamline 1"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (After Magnet)",
+		"key"	    : "BL1:IG 1-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"	    : "BL1:IG 1-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (Stage)",
+		"key"       : "BL1:IG 1-3 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL1:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL1:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL1:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL1:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"       : "BL1:STAGE CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "CREEP LVDT",
+		"key"	    : "BL1:LVDT",
+		"value"     : 0.0,
+		"unit"      : "mm",
+		"scale"	    : 1.0
+	    },
+	    {
+		"parameter" : "CREEP Load Cell",
+		"key"       : "BL1:Load Cell",
+		"value"     : 0.0,
+		"unit"      : "lbs",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Average AOI Temp",
+		"key"       : "BL1:Average FLIR Temp",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Current Dose",
+		"key"       : "BL1:DPA",
+		"value"     : 0.0,
+		"unit"      : "dpa",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple Back",
+		"key"       : "BL1:TCBack",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 0",
+		"key"       : "BL1:TC0",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 1",
+		"key"       : "BL1:TC1",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 2",
+		"key"       : "BL1:TC2",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 3",
+		"key"       : "BL1:TC3",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 4",
+		"key"       : "BL1:TC4",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 5",
+		"key"       : "BL1:TC5",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 6",
+		"key"       : "BL1:TC6",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    }
+
+	]
+    },
+    {
+	"name"      : "Beamline 2",
+	"tracker"  : ["Beamline 2"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (After Magnet)",
+		"key"       : "BL2:IG 2-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"       : "BL2:IG 2-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (Stage)",
+		"key"       : "BL2:IG 2-3 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL2:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL2:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL2:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL2:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Total Slit Current",
+		"key"	    : "BL2:SLIT CR",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"       : "BL2:STAGE CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Thermocouple Back",
+		"key"       : "BL2:TCBack",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 1",
+		"key"       : "BL2:TC1",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 2",
+		"key"       : "BL2:TC2",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 3",
+		"key"       : "BL2:TC3",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 4",
+		"key"       : "BL2:TC4",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 5",
+		"key"       : "BL2:TC5",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Average AOI Temperature",
+		"key"       : "BL2:Average FLIR Temp",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple Average",
+		"key"	    : "BL2:TC Average",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Current Dose",
+		"key"       : "BL2:DPA",
+		"value"     : 0.0,
+		"unit"      : "dpa",
+		"scale"     : 1.0
+	    }
+
+	]
+    },
+    {
+	"name"      : "Beamline 3",
+	"tracker"  : ["Beamline 3"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (After Magnet)",
+		"key"       : "BL3:IG 3-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"       : "BL3:IG 3-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (Chamber)",
+		"key"       : "BL3:IG 3-3 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+	        "parameter" : "Pressure 4 (Chamber-Hornet )",
+		"key"       : "BL3:IG 3-4 PR",
+		"value"	    : 0.0,
+		"unit"	    : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL3:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL3:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL3:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL3:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Total Slit Current",
+		"key"	    : "BL3:SLIT CR",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"     : 1.0e6
+	    }
+	]
+    },
+    {
+	"name"      : "Beamline 4",
+	"tracker"  : ["Beamline 4"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (After Magnet)",
+		"key"       : "BL4:IG 4-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"       : "BL4:IG 4-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (MBC)",
+		"key"       : "BL4:IG 4-MBC PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL4:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL4:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL4:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL4:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Total Slit Current",
+		"key"       : "BL4:SLIT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"       : "BL4:STAGE CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Thermocouple Back",
+		"key"       : "BL4:TCBack",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 1",
+		"key"       : "BL4:TC1",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 2",
+		"key"       : "BL4:TC2",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 3",
+		"key"       : "BL4:TC3",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 4",
+		"key"       : "BL4:TC4",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 5",
+		"key"       : "BL4:TC5",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {   "parameter" : "Average AOI Temperature",
+		"key"       : "BL4:Average FLIR Temp",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    }
+	]
+    },
+    {
+	"name"      : "Beamline 5",
+	"tracker"  : ["Beamline 5"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (Beamline)",
+		"key"	    : "BL 5:IG 5-0 PR",
+		"value"	    : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"       : "BL 5:IG 5-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (Beamline)",
+		"key"       : "BL 5:IG 5-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 4 (Stage)",
+		"key"       : "BL 5:IG 5-3 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL 5:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL 5:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL 5:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL 5:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"       : "BL 5:STAGE CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    }
+	]
+    },
+    {
+	"name"      : "Beamline 6",
+	"tracker"  : ["Beamline 6"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (Up)",
+		"key"	    : "BL 6:IG 6-Up PR",
+		"value"	    : 0.0,
+		"unit"      : "torr",
+		"scale"	    : 1.0
+            },
+	    {
+		"parameter" : "Pressure 2 (ESA)",
+		"key"	    : "BL 6:IG 6-ESA PR",
+		"value"     : 0.0,
+		"unit"	    : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (Down)",
+		"key"	    : "BL 6:IG 6-Down PR",
+		"value"	    : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"	    : "BL 6:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL 6:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL 6:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"	    : "BL 6:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Total Slit Current",
+		"key"	    : "BL 6:SLIT CR",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"	    : "BL 6:STAGE CR",
+		"value"	    : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "TEM Current",
+		"key"	    : "BL 6:TEM CR",
+		"value"	    : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    }
+	]
+    },
+    {
+	"name"      : "Beamline 7",
+	"tracker"  : ["Beamline 7"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1 (After Magnet)",
+		"key"       : "BL7:IG 7-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 2 (Beamline)",
+		"key"       : "BL7:IG 7-2 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Pressure 3 (MBC)",
+		"key"       : "BL7:IG 7-MBC PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "BL7 Beamline Current",
+		"key"	    : "BL7:FC 7-1",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1e6
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL7:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL7:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"       : "BL7:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL7:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Total Slit Current",
+		"key"	    : "BL7:SLIT CR",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"       : "BL7:FC 7-1",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+	        "parameter" : "Stage Current Alt",
+		"key"	    : "BL7:FC 7-2",
+		"value"     : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "Thermocouple 1",
+		"key"       : "BL4:TC1",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 2",
+		"key"       : "BL4:TC2",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 3",
+		"key"       : "BL4:TC3",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 4",
+		"key"       : "BL4:TC4",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Thermocouple 5",
+		"key"       : "BL4:TC5",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {   "parameter" : "Average AOI Temperature",
+		"key"       : "BL4:Average FLIR Temp",
+		"value"     : 0.0,
+		"unit"      : "C",
+		"scale"     : 1.0
+	    },
+	    {   "parameter" : "MAIZE HE",
+		"key"	    : "BL7:MAIZE HE",
+		"value"	    : 0.0,
+		"unit"	    : "torr",
+		"scale"     : 1.0
+	    }
+	]
+    },
+    {
+	"name"      : "Beamline 8",
+	"tracker"  : ["Beamline 8"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : [
+	    {
+		"parameter" : "Pressure 1",
+		"key"       : "BL 8:IG 8-1 PR",
+		"value"     : 0.0,
+		"unit"      : "torr",
+		"scale"     : 1.0
+	    },
+	    {
+		"parameter" : "Top Slit Current",
+		"key"       : "BL 8:SLIT UP CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Bottom Slit Current",
+		"key"       : "BL 8:SLIT DOWN CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Right Slit Current",
+		"key"	    : "BL 8:SLIT RIGHT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "Left Slit Current",
+		"key"       : "BL 8:SLIT LEFT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Total Slit Current",
+		"key"       : "BL 8:SLIT CR",
+		"value"     : 0.0,
+		"unit"      : "uA",
+		"scale"     : 1.0e6
+	    },
+	    {
+		"parameter" : "Stage Current",
+		"key"	    : "BL 8:STAGE CR",
+		"value"	    : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    },
+	    {
+		"parameter" : "TEM Current",
+		"key"	    : "BL 8:TEM CR",
+		"value"	    : 0.0,
+		"unit"	    : "uA",
+		"scale"	    : 1.0e6
+	    }
+	]
+    },
+    {
+	"name"      : "Beamline 9",
+	"tracker"   : ["Beamline 9"],
+	"isSharedVar"  : true,
+	"type"      : "beamline",
+	"variables" : []
+    },
+    {
+      "name"        : "MBC LN2 Autofill Times",
+      "tracker"     : ["Beamline 4","Beamline 7"],
+      "isSharedVar"    : false,
+      "type"        : "autofill",
+      "variables" : [
+	{
+	  "parameter" : "Fill Interval",
+	  "key"       : "MBC LN2:Fill Interval",
+	  "value"     : 0.0,
+	  "unit"      : "s",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Cycle Interval",
+	  "key"       : "MBC LN2:Cycle Interval",
+	  "value"     : 0.0,
+	  "unit"      : "s",
+	  "scale"     : 1
+	}
+      ]
+    },
+    {
+      "name"         : "MBC LN2 Autofill Voltages",
+      "tracker"      : ["Beamline 4","Beamline 7"],
+      "isSharedVar"     : false,
+      "type"         : "autofill",
+      "variables" : [
+	{
+	  "parameter" : "Empty Sensor",
+	  "key"       : "MBC LN2:Empty Sensor Volts",
+	  "value"     : 0.0,
+	  "unit"      : "V",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Full Sensor",
+	  "key"       : "MBC LN2:Full Sensor Volts",
+	  "value"     : 0.0,
+	  "unit"      : "V",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Manifold Sensor",
+	  "key"       : "MBC LN2:Manifold Sensor Volts",
+	  "value"     : 0.0,
+	  "unit"      : "V",
+	  "scale"     : 1
+	}
+      ]
+    },
+    {
+      "name"        : "BL2 LN2 Autofill Times",
+      "tracker"     : ["Beamline 2"],
+      "isSharedVar"    : false,
+      "type"        : "autofill",
+      "variables" : [
+	{ 
+	  "parameter" : "Fill Interval",
+	  "key"       : "BL2 LN2:Fill Interval",
+	  "value"     : 0.0,
+	  "unit"      : "s",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Cycle Interval",
+	  "key"       : "BL2 LN2:Cycle Interval",
+	  "value"     : 0.0,
+	  "unit"      : "s",
+	  "scale"     : 1
+	}
+      ]
+    },
+    {
+      "name"         : "BL2 LN2 Autofill Voltages",
+      "tracker"      : ["Beamline 2"],
+      "isSharedVar"     : false,
+      "type"         : "autofill",
+      "variables" : [
+	{
+	  "parameter" : "Empty Sensor",
+	  "key"       : "BL2 LN2:Empty Sensor Volts",
+	  "value"     : 0.0,
+	  "unit"      : "V",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Full Sensor",
+	  "key"       : "BL2 LN2:Full Sensor Volts",
+	  "value"     : 0.0,
+	  "unit"      : "V",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Manifold Sensor",
+	  "key"       : "BL2 LN2:Manifold Sensor Volts",
+	  "value"     : 0.0,
+	  "unit"      : "V",
+	  "scale"     : 1
+	}
+      ]
+    },
+    {
+      "name"         : "MBC Automatic FC Samples",
+      "tracker"      : ["Beamline 4","Beamline 7"],
+      "isSharedVar"  : false,
+      "type"         : "cupSample",
+      "variables" : [
+	{
+	  "parameter" : "BL4 Beamline Cup",
+	  "key"       : "Auto Cup:BL4 Beamline",
+	  "value"     : 0.0,
+	  "unit"      : "uA",
+	  "scale"     : 1e6
+	},
+	{
+	  "parameter" : "BL4 Chamber Cup",
+	  "key"       : "Auto Cup:BL4 Chamber",
+	  "value"     : 0.0,
+	  "unit"      : "uA",
+	  "scale"     : 1e6
+	},
+	{
+	  "parameter" : "BL7 Beamline Cup",
+	  "key"       : "Auto Cup:BL7 Beamline",
+	  "value"     : 0.0,
+	  "unit"      : "uA",
+	  "scale"     : 1e6
+	},
+	{
+	  "parameter" : "BL7 Chamber Cup",
+	  "key"       : "Auto Cup:BL7 Chamber",
+	  "value"     : 0.0,
+	  "unit"      : "uA",
+	  "scale"     : 1e6
+	}
+      ]
+    },
+    {
+      "name"         : "Maize Radiation Monitor",
+      "tracker"      : ["Maize"],
+      "isSharedVar"  : false,
+      "type"         : "radiationMonitor",
+      "variables" : [
+	{
+	  "parameter" : "Gamma Level",
+	  "key"       : "Maize RadMon:Gamma Level",
+	  "value"     : 0.0,
+	  "unit"      : "mR/hr",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Neutron Level",
+	  "key"       : "Maize RadMon:Neutron Level",
+	  "value"     : 0.0,
+	  "unit"      : "mrem/hr",
+	  "scale"     : 1
+	}
+      ]
+    },{
+      "name"         : "Wolverine Radiation Monitor",
+      "tracker"      : ["Wolverine"],
+      "isSharedVar"  : false,
+      "type"         : "radiationMonitor",
+      "variables" : [
+	{
+	  "parameter" : "Gamma Level",
+	  "key"       : "Wolverine RadMon:Gamma Level",
+	  "value"     : 0.0,
+	  "unit"      : "mR/hr",
+	  "scale"     : 1
+	},
+	{
+	  "parameter" : "Neutron Level",
+	  "key"       : "Wolverine RadMon:Neutron Level",
+	  "value"     : 0.0,
+	  "unit"      : "mrem/hr",
+	  "scale"     : 1
+	}
+      ]
+    }
+]
